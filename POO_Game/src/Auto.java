@@ -9,6 +9,9 @@ public class Auto {
     private double dAceleracion = 15;
     private double dTemperatura;
 
+    public Auto(){
+
+    }
     public Auto(String sPlaca) {
         this.sPlaca = sPlaca;
     }
